@@ -71,4 +71,4 @@ bot.on('message', msg=>{
     }
 })
 
-client.run(BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);
